@@ -4,7 +4,6 @@ hardhat.config.ts
 
 # Hardhat files
 /cache
-/artifacts
 /ignition
 *Lock*
 *HelloWorld*
@@ -20,7 +19,14 @@ hardhat.config.ts
 # Hardhat Ignition default folder for deployments against a local node
 # ignition/deployments/chain-31337
 
-# Exceptions
+# Exceptions: https://stackoverflow.com/a/16318111/946957
+artifacts/*
+!artifacts/contracts
+
+artifacts/contracts/*
+!artifacts/contracts/Ballot.sol
+
+artifacts/contracts/Ballot.sol/*
 !artifacts/contracts/Ballot.sol/Ballot.json
 
 # Personal Files and Notes
