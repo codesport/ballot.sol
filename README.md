@@ -1,6 +1,6 @@
 # Overview: Encode Club EVM Bootcamp Group 2, Assignment 2
 
-Ballot.sol was deployed with Viem using the [`deploy-ballot-viem.ts`](scripts/deploy-ballot-viem.ts) script.  
+[`Ballot.sol`](contracts/Ballot.sol) was deployed with Viem using the [`deploy-ballot-viem.ts`](scripts/deploy-ballot-viem.ts) script.  
 
 The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
 
@@ -21,12 +21,14 @@ Usage is as follows:
 
 # Deploy Ballot.sol
 
+The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
+
+"Pizza", "Salad", and "Lamb Chops" were chosen as proposals.  The screenshot below summarizes the contract deploy output:
+
 ![Ballot.sol Deployment](https://media.discordapp.net/attachments/1299375022737063979/1302057421858013224/Screenshot_2024-11-01_195103.png?ex=6728b538&is=672763b8&hm=2c850f539af675eb5356f24870a2193ed5219254cc4b0ff2bc974e7eba4dcb95&=&format=webp&quality=lossless&width=547&height=373)
 
 
-The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
 
-"Pizza", "Salad", and "Lamb Chops" were chosen as proposals.
 
 # Give Voting Rights
 
@@ -49,6 +51,7 @@ Below are screenshots and transaction hashes of these actions:
 
   - https://sepolia.etherscan.io/tx/0xed20f6da03fae521e82295062b116597f3b99e6d04a272d8c528c1303c3edf8f
   ![voting privileges 5](https://media.discordapp.net/attachments/1299375022737063979/1302523703313305630/brian-assign-vote.png?ex=67286d3a&is=67271bba&hm=0d2e8bb943cc53e4f872c841525a0f67a19aa6de31f0ef18c91e826f2ab6d7ad&=&format=webp&quality=lossless&width=966&height=373)
+  
 + [DAaJDn] @codesport 
 
 + [lofjwH] @fang10000
