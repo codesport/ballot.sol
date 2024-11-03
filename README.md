@@ -14,6 +14,16 @@ Usage is as follows:
 
 `$ npx ts-node call-any-Function.ts /<script-name>/<function-name>/<argument1>/<argument2>`
 
+## Team Members
+
+* ExqPpl - Github: @pondskai 
+* tJnNuQ - Github: @maomaosaosao 
+* R9dhTD - Github: @brianblankk
+* DAaJDn - Github: @codesport
+* lofjwH - Github: @fang10000
+* Mn8EN0 - Github: @ethalorian
+* HPJ2do - Github: @DiegoB1911 
+
 ## Deliverables
 
 * Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes and querying results
@@ -32,7 +42,7 @@ The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a6
 
 # Give Voting Rights
 
-In this scenario [DAaJDn] @codesport performed actions as the Ballot.sol "chairperson".  The following was run from the CLI to give each team member voting rights:
+In this scenario user **[DAaJDn] @codesport** performed actions as the Ballot.sol "chairperson".  The following was run from the CLI to give each team member voting rights:
 
 `$ npx ts-node call-any-function.ts task-ballot.ts/assignVoter/<userWalletAddress>/<ballotContractAddress>`
 
