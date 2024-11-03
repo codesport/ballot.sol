@@ -1,12 +1,9 @@
-node_modules
-.env
-hardhat.config.ts
-
 # Hardhat files
 /cache
+hardhat.config.ts
 /ignition
-*Lock*
-*HelloWorld*
+# Hardhat Ignition default folder for deployments against a local node
+# ignition/deployments/chain-31337
 
 # TypeChain files
 /typechain
@@ -15,9 +12,6 @@ hardhat.config.ts
 # solidity-coverage files
 /coverage
 /coverage.json
-
-# Hardhat Ignition default folder for deployments against a local node
-# ignition/deployments/chain-31337
 
 # Exceptions: https://stackoverflow.com/a/16318111/946957
 artifacts/*
@@ -29,5 +23,40 @@ artifacts/contracts/*
 artifacts/contracts/Ballot.sol/*
 !artifacts/contracts/Ballot.sol/Ballot.json
 
-# Personal Files and Notes
+# Personal Files, Custom Files, and Notes
 *.txt
+*.env*
+*Lock*
+*HelloWorld*
+
+# HISTORICALL IGNORED FILES FROM 2022
+
+# Package Manager Files
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+#.env*.local
+
+# vercel
+.vercel
+#*.env
