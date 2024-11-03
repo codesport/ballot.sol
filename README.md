@@ -1,7 +1,32 @@
-# Overview
-Two scripts, `call-any-Function.ts`  and `task-ballot.ts`, are used to execute read and write functions within `Ballot.sol`.  [`call-any-Function.ts`](scripts/call-any-function.ts) is a wrapper that parses arguments and calls a function in a given file
+# Overview: Encode Club EVM Bootcamp Group 2, Assignment 2
+
+Ballot.sol was deployed with Viem using the [`deploy-ballot-viem.ts`](scripts/deploy-ballot-viem.ts) script.  
+
+The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
+
+`call-any-Function.ts` and `task-ballot.ts` were used from the CLI to execute read and write functions within `Ballot.sol`. 
+
+ [`call-any-Function.ts`](scripts/call-any-function.ts) is a wrapper that parses arguments and calls a function within a given file.
+
+ [`task-ballot.ts`](scripts/tasks-ballot.ts) contains the functions which execute voting and delegating on the contract.
+
+Usage is as follows:
+
+`$ npx ts-node call-any-Function.ts /<script-name>/<function-name>/<argument1>/<argument2>`
+
+## Deliverables
+
+* Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes and querying results
+* Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed
+
+# Deploy Ballot.sol
+
+![Ballot.sol Deployment](https://media.discordapp.net/attachments/1299375022737063979/1302057421858013224/Screenshot_2024-11-01_195103.png?ex=6728b538&is=672763b8&hm=2c850f539af675eb5356f24870a2193ed5219254cc4b0ff2bc974e7eba4dcb95&=&format=webp&quality=lossless&width=547&height=373)
 
 
+The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
+
+"Pizza", "Salad", and "Lamb Chops" were chosen as proposals.
 
 # Give Voting Rights
 
