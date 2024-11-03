@@ -20,18 +20,11 @@ import {
 
 import { privateKeyToAccount } from "viem/accounts"; //wallet client
 
-
 // Import abi and bytecode from your compiled contract json artifact
 import { abi, bytecode } from "../artifacts/contracts/Ballot.sol/Ballot.json";
 
 import { sepolia } from "viem/chains";
-import 'dotenv/config' //alt 1 (source: https://www.npmjs.com/package/dotenv )
-
-// import dotenv from "dotenv"; //alt 2 is two lines 
-// dotenv.config();
-
-// import * as dotenv from "dotenv"; //alt 3 is two lines
-// dotenv.config();
+import 'dotenv/config' 
 
 // NB:  In TS, "||"" cannot be used when assigning booleans, numbers, etc.
 	//see: https://stackoverflow.com/a/60353941/946957
@@ -115,7 +108,6 @@ async function main() {
 		const name = hexToString(proposal[0], { size: 32 });
 		console.log({ index, name, proposal });
 	}
-
 
 
 }
