@@ -18,7 +18,7 @@ Usage is as follows:
 
 * ExqPpl - Github: @pondskai 
 * tJnNuQ - Github: @maomaosaosao 
-* R9dhTD - Github: @brianblankk
+* R9dhTD - Github: @brianblank
 * DAaJDn - Github: @codesport
 * lofjwH - Github: @fang10000
 * Mn8EN0 - Github: @ethalorian
