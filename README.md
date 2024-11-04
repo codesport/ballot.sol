@@ -2,7 +2,7 @@
 
 [`Ballot.sol`](contracts/Ballot.sol) was deployed with Viem using the [`deploy-ballot-viem.ts`](scripts/deploy-ballot-viem.ts) script.  
 
-The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
+The contract's address is [0x92620b62e21193ed7a0f36915522efab5049a718](https://sepolia.etherscan.io/address/0x92620b62e21193ed7a0f36915522efab5049a718).  The creation (i.e., deploy) transaction is located at [0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121](https://sepolia.etherscan.io/tx/0x39b6325c21b2a65d06f94063284450000ea8856c063951ed27752f230788d121) on the Sepolia testnet.
 
 `call-any-Function.ts` and `task-ballot.ts` were used from the CLI to execute read and write functions within `Ballot.sol`. 
 
@@ -44,7 +44,7 @@ The contract creation (i.e., deploy) transaction is located at [0x39b6325c21b2a6
 
 In this scenario user **[DAaJDn] @codesport** performed actions as the Ballot.sol "chairperson".  The following was run from the CLI to give each team member voting rights:
 
-`$ npx ts-node call-any-function.ts task-ballot.ts/assignVoter/<userWalletAddress>/<ballotContractAddress>`
+`$ npx ts-node call-any-function.ts tasks-ballot.ts/assignVoter/<userWalletAddress>/<ballotContractAddress>`
 
 where:
 `ballotContractAddress` = [0x92620b62E21193ed7A0f36915522EFab5049A718](https://sepolia.etherscan.io/address/0x92620b62E21193ed7A0f36915522EFab5049A718)
