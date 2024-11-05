@@ -1,4 +1,3 @@
-
 // Class 8: Running operations scripts
 // https://github.com/Encode-Club-Solidity-Bootcamp/Lesson-08?tab=readme-ov-file#running-operations-scripts
 

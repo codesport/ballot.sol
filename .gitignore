@@ -28,6 +28,7 @@ artifacts/contracts/Ballot.sol/*
 *.env*
 *Lock*
 *HelloWorld*
+*private*
 
 # HISTORICALL IGNORED FILES FROM 2022
 
