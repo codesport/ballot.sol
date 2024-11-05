@@ -22,7 +22,8 @@ async function main() {
   const publicClient = await viem.getPublicClient();
   const blockNumber = await publicClient.getBlockNumber();
   console.log("Last block number:", blockNumber);
-  const [deployer] = await viem.getWalletClients();
+
+  const [ deployer, , ] = await viem.getWalletClients();
   console.log("Deployer address:", deployer.account.address);
   const balance = await publicClient.getBalance({
     address: deployer.account.address,
