@@ -54,12 +54,12 @@ const test = async (voterAddress: `0x${string}`) => {
 
 
 /**
- * CLI function to verify user inputs. depends on import * as readline from "readline";
+ * CLI function to verify user inputs. depends on `import * as readline from "readline";`
+ * - call from within another async function
+ *
  * @param message - The confirmation message.
  * @returns Promise resolving to true if confirmed, false otherwise.
  *
- * Modified from @fang10000
- * @see https://github.com/EncodeClub-EVMBootcamp24Q4-Group2/project2/blob/zzproject2/scripts/Delegate.ts#L16-L28
  */
  const confirmAction = async (message: string): Promise<boolean> => {
   const rl = readline.createInterface({
